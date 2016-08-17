@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="netvar_manager">
+      <UniqueIdentifier>{40c04238-0e85-4fad-8990-118bc0499d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{75b842f0-75b5-447f-af48-f56d08661def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{ed3396f4-9df7-47cf-aac2-2f5315b1e81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process\module">
+      <UniqueIdentifier>{387bd63e-fa34-4ecd-a146-aa2cda854523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="offsets">
+      <UniqueIdentifier>{b0e29afa-e213-40e5-990a-397d6ae3fe04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="netvar_manager.hpp">
+      <Filter>netvar_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="process.hpp">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="module.hpp">
+      <Filter>process\module</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>offsets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="process.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="netvar_manager.cpp">
+      <Filter>netvar_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="module.cpp">
+      <Filter>process\module</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>offsets</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
